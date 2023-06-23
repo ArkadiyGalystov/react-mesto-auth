@@ -20,4 +20,4 @@
 **3.1. React:** CRA, хуки useState, useEffect.
 
 ### Ссылка на проект
-<a href="https://arkadiygalystov.github.io/mesto-react/" target="_blank">Открыть сайт в новой вкладке</a>
+<a href="https://arkadiygalystov.github.io/react-mesto-auth/" target="_blank">Открыть сайт в новой вкладке</a>
