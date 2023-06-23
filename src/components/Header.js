@@ -12,18 +12,14 @@ function Header({ userEmail, onSignOut }) {
           <Route 
             path='/sign-in' 
             element={
-              <Link to='/sign-up' className='header__link'>
-                Регистрация
-              </Link>
+              <Link to='/sign-up' className='header__link'>Регистрация</Link>
             } 
           />
 
           <Route 
             path='/sign-up' 
             element=
-              {<Link to='/sign-in' className='header__link'>
-                Войти
-              </Link>
+              {<Link to='/sign-in' className='header__link'>Войти</Link>
             } 
           />
 
@@ -34,9 +30,7 @@ function Header({ userEmail, onSignOut }) {
                 <span className='header__email'>
                   {userEmail}
                 </span>
-                <button className='header__logout' type='button' onClick={onSignOut}>
-                  Выйти
-                </button>
+                <button className='header__logout' type='button' onClick={onSignOut}>Выйти</button>
               </nav>
             } 
           />

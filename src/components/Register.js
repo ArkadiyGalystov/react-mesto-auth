@@ -4,8 +4,8 @@ import { useForm } from './useForm.js';
 function Register({ onRegister }) {
   const { values, handleChange } = useForm({ email: '', password: '' });
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function handleSubmit(evt) {
+    evt.preventDefault();
     onRegister(values);
   }
 
