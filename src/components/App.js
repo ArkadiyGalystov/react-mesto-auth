@@ -18,7 +18,7 @@ import { InfoTooltip } from './InfoTooltip.js';
 import { ConfirmDeletePopup } from './ConfirmDeletePopup.js';
 //--------------------------------------------------
 import { api } from '../utils/Api.js';
-import { auth } from '../utils/Auth.js';
+import { auth } from './Auth.js';
 //--------------------------------------------------
 import { CurrentUserContext } from '../contexts/CurrentUserContext.js';
 //--------------------------------------------------
