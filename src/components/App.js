@@ -43,7 +43,7 @@ function App() {
   const [userEmail, setUserEmail] = useState('');
 
   useEffect(() => {
-    if (!isLogIn) {
+    if (isLogIn == true) {
       Promise.all([api.getUserInfoApi(), api.getInitialCards()])
         .then(([currentUser, initialCards]) => {
           setCurrentUser(currentUser);
